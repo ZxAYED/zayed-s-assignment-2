@@ -71,19 +71,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-   
+    margin:0px;
+   height: 70vh;
     background-color: #edeaea;
+   
    
 
 }
 .article-aside{
     display: flex;
     flex-direction: column;
-    gap:10px;
+  
     justify-content: center;
-    align-items: center;
-    padding:200px;
+    align-items:center;
+    padding:120px 200px 100px 240px;
     
    
     background-image: url(/images/Group\ 14.png)  ;
@@ -136,8 +137,8 @@
   
 }  
 .article-aside-2 > img{
-    position: relative;
-    top:-80px;
+  
+    
 height: 100%;
 width: 80%;
 }
