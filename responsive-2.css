@@ -19,4 +19,48 @@
 
 
 }
+.article-container{
+    justify-content: center;
+    align-items: center;
+  padding:0px;
+   font-size: 1rem;
+   background-color: white;
+   max-width: 100%;
+   margin:0 ;
+   margin-top: 150px;
+    margin-bottom:20px;
+}
+.article-aside-2 {
+    width: 50%;
+}
+.article-aside-2 img{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+}
+.article-aside{
+    max-width: 50%;   
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 0px;
+  
+}
+.article-aside h1  {
+    font-size: 1.5rem;
+}
+.goat{
+    font-size: 2.5rem;
+}
+.article-aside ul >li{
+    font-size: 1rem;
+}
+.btn-1{
+    font-size:0.8rem ;
+    padding:10px
+}
+.btn-2{
+    font-size:0.8rem ;
+    padding:10px
+}
 }
