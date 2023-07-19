@@ -1,66 +1,81 @@
-@media screen and (min-width:640px) and (max-width:1024px) {
-    .header-container {
-
-        flex-direction: column;
-    }
-    .nav-menu{
-        max-width: 100%;
-        justify-content:center ;
-        border-bottom: 1px solid purple;
-        padding:10px
-    }
-   .follow{
-        max-width: 50%;}
-        .logo{
-            height: 20%;
-            width: 15%;
-            padding-right: 10px;
-        
-
-
-}
-.article-container{
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .nav-menu {
+    max-width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid purple;
+    padding: 10px;
+  }
+  .follow {
+    max-width: 50%;
+  }
+  .logo {
+    height: 20%;
+    width: 15%;
+    padding-right: 10px;
+  }
+  .article-container {
     justify-content: center;
     align-items: center;
-  padding:0px;
-   font-size: 1rem;
-   background-color: white;
-   max-width: 100%;
-   margin:0 ;
-   margin-top: 150px;
-    margin-bottom:20px;
-}
-.article-aside-2 {
+    padding: 0px;
+    font-size: 1rem;
+    background-color: white;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  .article-aside-2 {
     width: 50%;
-}
-.article-aside-2 img{
+  }
+  .article-aside-2 img {
     width: 60%;
     display: flex;
     justify-content: start;
-    align-items:flex-start;
-}
-.article-aside{
-    max-width: 50%;   
+    align-items: flex-start;
+  }
+  .article-aside {
+    max-width: 50%;
     font-size: 1rem;
     text-align: left;
     padding-left: 0px;
-  
-}
-.article-aside h1  {
+  }
+  .article-aside h1 {
     font-size: 1.5rem;
-}
-.goat{
+  }
+  .goat {
     font-size: 2.5rem;
-}
-.article-aside ul >li{
+  }
+  .article-aside ul > li {
     font-size: 1rem;
-}
-.btn-1{
-    font-size:0.8rem ;
-    padding:10px
-}
-.btn-2{
-    font-size:0.8rem ;
-    padding:10px
-}
+  }
+  .btn-1 {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .btn-2 {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  .card-container{
+    font-size: 1rem;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main section article > h1 {
+    font-size: 1.8rem;
+  }
+  .card-container > h1 {
+    font-size: 2rem;
+    padding: 10px 0px;
+  }
+  .main section article > h2 {
+    font-size: 0.7rem;
+  }
+  .card{
+    padding: 10px;
+  }
 }
