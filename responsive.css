@@ -215,8 +215,9 @@
          footer {
             font-size: 0.8rem;
             max-width: 100%;
-            margin:0px 0px;
+            margin: 0px;
             text-align: center;
+            margin-top:30px;
             
           
          }
