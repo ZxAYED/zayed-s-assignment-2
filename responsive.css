@@ -41,6 +41,7 @@
             flex-direction: column-reverse;
             margin-top:100px ;
             margin-bottom: 20px;
+            background-color: #fff;
          height: auto;
           max-width: 100%;
          justify-content: center;
@@ -135,6 +136,7 @@
          }
          .description{
             margin:0px;
+            margin-top: 70px;
             width: 100%;
             flex-direction: column;
             justify-content: center;
@@ -169,7 +171,7 @@
          }
          .career  {
             flex-direction: column;
-            margin: 100px 0;
+            margin: 20px 0;
             justify-content: start;
             text-align: start;
             padding:0px;
@@ -187,8 +189,40 @@
             padding: 5px 2px ;
             font-size: 0.7rem;
          }
+         .game-section{
+            grid-template-columns: repeat(3 , 1fr);
+            max-width: 100%;
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
 
-         
+         }
+         .game-icon-display{
+            gap:10px;
+            padding:5px 10px;
+            font-size: 0.5rem;
+            border-radius:20px;
+         }
+         .game-icon{
+            width: 60%;
+            height: 60%;
+         }
+         .logo{
+            height: 40px;
+            width: 40px;
+         }
+         footer {
+            font-size: 0.8rem;
+            max-width: 100%;
+            margin:0px 0px;
+            text-align: center;
+            
+          
+         }
+         .footer-grid{
+            grid-template-columns: repeat(3,1fr);
+         }
 
 
 
