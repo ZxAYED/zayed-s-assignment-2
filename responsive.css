@@ -89,9 +89,12 @@
             flex-direction: column;
            max-width: 100%;
          }
+         .article-left{
+            max-width: 100%;
+         }
          .article-left > img{
-            height: 110%;
-            width: 110%;
+            height: 100%;
+            width: 100%;
          }
          .article-right{
             text-align: center;
@@ -130,7 +133,61 @@
          .card{
             padding: 10px;
          }
-         
+         .description{
+            margin:0px;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+         }
+         .description-para{
+            max-width: 90%;
+            font-size: 1em;
+         }
+         .description-para h1{
+            font-size: 2rem;
+         }  
+         .poster-container {
+            max-width: 90%;
+           margin-top: 40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+         }
+         .poster{
+            height: 100%;
+            width: 80%;
+         }
+         .poster-2{
+            position: relative;
+           left: -120px;
+           bottom:0px;
+           top:-80px;
+
+           height: 40%;
+           width: 40%;
+         }
+         .career  {
+            flex-direction: column;
+            margin: 100px 0;
+            justify-content: start;
+            text-align: start;
+            padding:0px;
+            max-width: 100%;
+         }
+         .career-para{
+            margin: 0 0;
+            padding:20px;
+            text-align: start;
+            max-width: 100%;
+           
+            font-size: 0.7rem;
+         }
+         .btn-3{
+            padding: 5px 2px ;
+            font-size: 0.7rem;
+         }
+
          
 
 

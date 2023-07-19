@@ -78,4 +78,38 @@
   .card{
     padding: 10px;
   }
+  .poster-container{
+    max-width: 100%;
+  }
+.poster-1{
+  height: 100%;
+  width: 100%;
+}
+
+  .poster-2{
+    position: relative;
+   left:-280px;
+   bottom:0px;
+   top:50px;
+
+   height: 40%;
+   width: 30%;
+ }
+ .career{
+  margin:100px 0px;
+  padding:20px;
+  font-size: 0.7rem;
+ }
+ .btn-3{
+  font-size: 0.7rem;
+  padding:10px
+ }
+ .child-image{
+  max-width: 60%;
+  margin-left:0px;
+ }
+ .child-img{
+  padding:0px;
+ }
+
 }
