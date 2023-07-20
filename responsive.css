@@ -190,6 +190,7 @@
             font-size: 0.7rem;
          }
          .game-section{
+            display: grid;
             grid-template-columns: repeat(3 , 1fr);
             max-width: 100%;
             padding: 0px;
@@ -223,6 +224,12 @@
          }
          .footer-grid{
             grid-template-columns: repeat(3,1fr);
+         }
+         .small-container{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
          }
 
 
